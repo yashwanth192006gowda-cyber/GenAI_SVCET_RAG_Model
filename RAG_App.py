@@ -20,7 +20,7 @@ os.environ["USER_AGENT"] = "rag-app"
 
 # ------------------ LOAD ENV ------------------
 load_dotenv()
-groq_api_key = st.secrets["yppp"]
+groq_api_key = st.secrets["GROQ_API_KEY"]
 
 # ------------------ UI ------------------
 st.set_page_config(page_title="Dynamic RAG with Groq", layout="wide")
